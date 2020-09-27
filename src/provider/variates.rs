@@ -8,7 +8,7 @@ pub fn uniform(a: f64, b: f64, r: f64) -> f64 {
 
 // This is an implementation of Equilikely defined on page 64 of the above
 // referenced book by Leemis et. al.
-pub fn equlikely(a: i64, b: i64, r: f64) -> i64 {
+pub fn equilikely(a: i64, b: i64, r: f64) -> i64 {
     a + ((b - a) as f64 * r) as i64
 }
 
